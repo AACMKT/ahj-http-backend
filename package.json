@@ -1,0 +1,19 @@
+{
+  "name": "ahj_http_backend",
+  "version": "1.0.0",
+  "description": "Implementation of interactions between backend and frontend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever -v server.js",
+    "watch": "forever -v --minUptime 3000 --spinSleepTime 3000 server.js"
+  },
+  "author": "aacmkt",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "forever": "^4.0.3",
+    "koa": "^2.13.1",
+    "koa-body": "^6.0.1"
+  }
+}
